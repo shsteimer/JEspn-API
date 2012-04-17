@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.shsteimer</groupId>
+    <artifactId>espn-api-root</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    
+    <properties>
+    	<java.source.version>1.6</java.source.version>
+		<java.target.version>1.6</java.target.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<file.encoding>UTF-8</file.encoding>
+    </properties>
+    
+	
+	<modules>
+		<module>jESPN-XMLBEANS</module>
+		<module>jESPN-API</module>
+	</modules>
+</project>
